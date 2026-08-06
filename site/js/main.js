@@ -122,6 +122,7 @@ const THEME_GENRES = {
   carnival:  "editorial",
   lumen:     "atmospheric",
   hum:       "playful",
+  grid:      "editorial",
 };
 
 /* — Locked hero title —————————————————————————————————
@@ -543,19 +544,19 @@ const COPY = {
   grid: {
     eyebrow: "SWISS INTERNATIONAL",
     title: HERO_TITLE,
-    lede: "The grid, made visible. A near-white sheet, exposed twelve-column hairlines, one signal red, and a heavy neo-grotesque set flush-left. Rational, exact, built for institutions that plan in decades.",
+    lede: "The grid, made visible. A near-white sheet, exposed twelve-column hairlines, a heavy neo-grotesque set flush-left, and one signal ink spent on geometry: a square, a bar, a plate, a numeral cropped by the band edge. Rational, exact, built for institutions that plan in decades.",
     ctaLabel: "Method",
     proofLabel: "System",
     proofA: "Exposed 12-column hairline grid",
     proofB: "Archivo 800 · flush-left · tight tracking",
-    proofC: "One red element per viewport",
+    proofC: "One signal ink, spent on geometry",
     cta: "Read the method",
     stat: "12",
     qualifier: "columns, exposed.",
-    quote: "Structure before surface. One grid, two weights, one red.",
+    quote: "Structure before surface. One grid, two weights, one ink.",
     attrib: "Grid note",
     salutation: "Schedule, then ship.",
-    letterBody: "Swiss International, executed straight: the grid is not scaffolding you hide, it is the design. Content snaps to twelve columns, asymmetric spans make the rhythm, and a single red mark does all the emotional work.",
+    letterBody: "Swiss International, executed straight: the grid is not scaffolding you hide, it is the design. Content snaps to twelve columns, asymmetric spans make the rhythm, and a single signal ink does all the emotional work: marks, one flooded plate, a giant cropped numeral.",
     signoff: "Flush left,",
     captionA: "Grid",
     captionB: "Twelve columns",
