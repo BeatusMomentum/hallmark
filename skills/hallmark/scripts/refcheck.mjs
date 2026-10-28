@@ -298,7 +298,7 @@ const FIX = join(ROOT, 'scripts', 'fixtures');
     const run = spawnSync(process.execPath, [join(ROOT, 'scripts', 'sloplint.mjs'), project, '--scope', 'component', '--json'], { encoding: 'utf8', timeout: 5000 });
     let report = null;
     try { report = JSON.parse(run.stdout); } catch {}
-    if (!report || report.summary.files !== 1) add('error', SKILL, 1, 'fixture', '符号链接目录环必须结束遍历，且同一真实文件只能检查一次');
+    if (!report || report.summary.files !== 1) add('error', SKILL, 1, 'fixture', 'directory symlink cycles must terminate and each real file must be linted once');
   } finally { rmSync(tmp, { recursive: true, force: true }); }
 }
 const lintJson = (t) => { const r = spawnSync(process.execPath, [join(ROOT, 'scripts', 'sloplint.mjs'), t, '--json'], { encoding: 'utf8' }); try { return JSON.parse(r.stdout); } catch { return null; } };
